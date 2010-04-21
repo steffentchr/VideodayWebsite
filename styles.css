@@ -1,0 +1,84 @@
+/* RESET */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul {list-style:none;}caption,th {text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym {border:0;}
+
+
+body {background: url(images/bg-body.png) repeat 0 0; font-family: Helvetica, Arial, sans-serif;}
+a {color: #000; text-decoration: none;}
+a:hover {color: #FFF;}
+
+/* HEADER */
+.header {background: url(images/bg-top.jpg) repeat-x center 25px; height: 495px;}
+#header-gfx-1 {height: 20px; display: block; background: url(images/bg-header-gfx-1.jpg) repeat-x 0 0;}
+#header-gfx-2 {height: 5px; display: block; background: #000 url(images/bg-header-gfx-2.png) repeat-x 0 0;}
+
+.frame {width: 780px; margin: -410px auto 0;}
+h2 {color: #000; font-size: 24px; font-weight: bold; text-shadow: 1px 1px 1px #B5C6A8; line-height: 22px; margin:0 0 20px 0;}
+h3 {color: #000; font-size: 16px; font-weight: bold; text-shadow: 1px 1px 1px #B5C6A8; line-height: 1em; margin:0 0 5px 0;}
+p {line-height: 1.4em; font-size: 16px; text-shadow: 1px 1px 1px #B5C6A8; margin: 5px 0 10px;}
+
+/* NAVIGATION */
+.navigation {text-align: center; margin: 0 0 40px 0;}
+.navigation li {display: inline; font-size: 18px; font-weight: bold; background: url(images/bg-bullet-1.png) no-repeat 0 center; padding: 0 30px; margin: 0;}
+.navigation li#first {background-image: none;}
+.navigation li a {text-shadow: 1px 1px 1px #B5C6A8;}
+.navigation li a:hover {color: #000; border-bottom: 2px solid #000;}
+
+/* LOGO & DATE */
+.logo {text-align: center;}
+.logo #date {color: #FFF; text-shadow: 1px 1px 1px #627153; margin: 20px 0 40px; font: italic 14px Georgia, "Times New Roman", Times, serif;}
+
+/* INTRO */
+.intro {border-top: 3px solid #000; padding: 30px 0; }
+.intro p {font-size: 20px;line-height: 32px; text-shadow: 1px 1px 1px #B5C6A8; text-align: justify;}
+
+/* SPEAKER LIST */
+.speakers {height: 203px;}
+.speakers .speaker {margin: 0 0px 5px 0; color: #FFF; font-size: 14px; font-weight: bold;}
+.speakers .speaker .name {text-transform: uppercase; padding: 0 5px 0 0;}
+.speakers .speaker .company {color: #FFDD00;}
+.speakers #speaker-140 {width: 140px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-190 {width: 190px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-200 {width: 200px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-210 {width: 210px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-220 {width: 220px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-230 {width: 230px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-240 {width: 240px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-250 {width: 250px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-260 {width: 260px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-270 {width: 270px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-280 {width: 280px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-290 {width: 290px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-300 {width: 300px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-310 {width: 310px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-340 {width: 340px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+
+/* SPONSORS */
+.sponsors {margin: 40px 0; height: 30px;}
+.sponsors .sponsor-logo {float: left;}
+.sponsors #logo-23.sponsor-logo {margin: 0 138px 0 0;}
+.sponsors #logo-fdim.sponsor-logo {margin: 0 138px 0 0;}
+.sponsors #logo-kforum.sponsor-logo {margin: 0 138px 0 0;}
+.sponsors #logo-fdih.sponsor-logo {text-align: right;}
+
+/* PROGRAM */
+.program {border-top: 3px solid #000; padding: 30px 0; }
+.program p {margin: 0 0 20px; font-size: 20px; color: #FFF; line-height: 22px; text-shadow: 1px 1px 1px #627153;}
+.program h2 {float: left; margin: 0 10px 0 0;}
+
+/* TID & STED */
+.tidogsted {border-top: 3px solid #000; padding: 30px 0; }
+.tidogsted-beskrivelse {width: 380px; height: 380px; float: left; margin: 0 20px 0 0;}
+.tidogsted-beskrivelse {width: 380px;}
+
+/* FOOTER */
+.footer {background: url(images/bg-footer.png) repeat-x 0 72px; text-align: center; margin: 0 0 50px 0;}
+.footer .notice {margin: 10px 0 20px;font-size: 11px; color: #333; text-shadow: 1px 1px 1px #B5C6A8;}
+
+
+/* TILMELD */ 
+#subForm {border-top: 3px solid #000; padding: 30px 0; }
+#subForm td {line-height: 1.4em; font-size: 16px; text-shadow: 1px 1px 1px #B5C6A8; margin:5px 0 10px; padding-bottom:10px;}
+#subForm td.label {padding-right:15px;}
+
+#subForm input.text, #subForm textarea {background-clor:black; font-size:13px; line-height:18px; text-transform:uppercase; color:white; font-weight:bold; padding: 5px 5px 4px; background-color: #000; border:0;}
+#subForm textarea {text-transform:none; font-family: Helvetica, Arial, sans-serif;}
