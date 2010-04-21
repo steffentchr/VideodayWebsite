@@ -1,5 +1,8 @@
 <? include('top.php'); ?>	
 
+<div class="intro">
+  <p style="text-align:center;">Tilmeld dig og dine kollegaer til Videoday den 3. juni. Billetter koster 1.295 kr. og kan købes med rabat for medlemmer af Kommunikationsforum, FDIH eller FDIM.</p>
+</div>
 
 <form action="http://23company.createsend.com/t/r/s/huuyju/" method="post" id="subForm" style="text-align:center;">
   <table cellspacing="0" cellpadding="4" border="0" style="margin:0 auto; text-align:left;">
@@ -37,7 +40,7 @@
     <tr>
       <td style="padding-top:12px;" class="label" align="right" valign="top"><label for="Medlem">Samlet pris:</label></td>
       <td style="padding-top:10px; font-size:1.2em;">
-        DKK <span id="pris">1.295</span> + moms
+        <span id="pris">1.295</span> kr. + moms
       </td>
     </tr>
 
