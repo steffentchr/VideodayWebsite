@@ -11,11 +11,10 @@ a:hover {color: #FFF;}
 #header-gfx-1 {height: 20px; display: block; background: url(images/bg-header-gfx-1.jpg) repeat-x 0 0;}
 #header-gfx-2 {height: 5px; display: block; background: #000 url(images/bg-header-gfx-2.png) repeat-x 0 0;}
 
-.frame {width: 780px; margin: -410px auto 0;}
+.frame {width: 740px; margin: -410px auto 0;}
 h2 {color: #000; font-size: 24px; font-weight: bold; text-shadow: 1px 1px 1px #B5C6A8; line-height: 22px; margin:0 0 20px 0;}
 h3 {color: #000; font-size: 16px; font-weight: bold; text-shadow: 1px 1px 1px #B5C6A8; line-height: 1em; margin:0 0 5px 0;}
 p {line-height: 1.4em; font-size: 16px; text-shadow: 1px 1px 1px #B5C6A8; margin: 5px 0 10px;}
-hr {border:0; border-top: 1px solid #000; }
 
 /* NAVIGATION */
 .navigation {text-align: center; margin: 0 0 40px 0;}
@@ -30,18 +29,21 @@ hr {border:0; border-top: 1px solid #000; }
 
 /* INTRO */
 .intro {border-top: 3px solid #000; padding: 30px 0; }
-.intro p {font-size: 20px;line-height: 32px; text-shadow: 1px 1px 1px #B5C6A8; text-align: justify;}
+.intro p {font-size: 18px; line-height: 32px; text-shadow: 1px 1px 1px #B5C6A8; text-align: justify;}
 
 /* SPEAKER LIST */
-.speakers {height: 203px;}
-.speakers .speaker {margin: 0 0px 5px 0; color: #FFF; font-size: 14px; font-weight: bold;}
-.speakers .speaker .name {text-transform: uppercase; padding: 0 5px 0 0;}
+.speakers {height: 463px;}
+.speakers .speaker {margin: 0 0px 5px 0; color: #FFF; font-size: 20px; font-weight: bold; text-shadow: 1px 1px 1px #000;}
+.speakers .speaker .name {text-transform: uppercase; padding: 0 10px 0 0;}
 .speakers .speaker .company {color: #FFDD00;}
+.speakers #speaker-100 {width: 100px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
 .speakers #speaker-140 {width: 140px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-185 {width: 185px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
 .speakers #speaker-190 {width: 190px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
 .speakers #speaker-200 {width: 200px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
 .speakers #speaker-210 {width: 210px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
 .speakers #speaker-220 {width: 220px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-225 {width: 225px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
 .speakers #speaker-230 {width: 230px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
 .speakers #speaker-240 {width: 240px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
 .speakers #speaker-250 {width: 250px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
@@ -51,14 +53,32 @@ hr {border:0; border-top: 1px solid #000; }
 .speakers #speaker-290 {width: 290px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
 .speakers #speaker-300 {width: 300px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
 .speakers #speaker-310 {width: 310px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-320 {width: 320px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-330 {width: 330px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
 .speakers #speaker-340 {width: 340px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-350 {width: 350px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-360 {width: 360px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-370 {width: 370px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-380 {width: 380px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-390 {width: 390px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-400 {width: 400px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-410 {width: 410px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-420 {width: 420px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-430 {width: 430px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-440 {width: 440px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-450 {width: 450px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-460 {width: 460px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-470 {width: 470px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-480 {width: 480px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-490 {width: 490px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
+.speakers #speaker-500 {width: 500px; float: left; margin: 0 5px 5px 0; padding: 5px 5px 4px; background-color: #000;}
 
 /* SPONSORS */
-.sponsors {margin: 40px 0; height: 30px;}
+.sponsors {margin: 0px 0 40px 0; height: 30px;}
 .sponsors .sponsor-logo {float: left;}
-.sponsors #logo-23.sponsor-logo {margin: 0 138px 0 0;}
-.sponsors #logo-fdim.sponsor-logo {margin: 0 138px 0 0;}
-.sponsors #logo-kforum.sponsor-logo {margin: 0 138px 0 0;}
+.sponsors #logo-23.sponsor-logo {margin: 0 120px 0 0;}
+.sponsors #logo-fdim.sponsor-logo {margin: 0 120px 0 0;}
+.sponsors #logo-kforum.sponsor-logo {margin: 0 120px 0 0;}
 .sponsors #logo-fdih.sponsor-logo {text-align: right;}
 
 /* PROGRAM */
@@ -75,6 +95,8 @@ hr {border:0; border-top: 1px solid #000; }
 .footer {background: url(images/bg-footer.png) repeat-x 0 72px; text-align: center; margin: 0 0 50px 0;}
 .footer .notice {margin: 10px 0 20px;font-size: 11px; color: #333; text-shadow: 1px 1px 1px #B5C6A8;}
 
+
+hr {border:0; border-top: 1px solid #000; }
 
 /* TILMELD */ 
 #subForm {padding: 10px 0; }

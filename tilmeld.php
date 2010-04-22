@@ -30,10 +30,10 @@
     <tr>
       <td class="label" align="right" valign="top"><label for="Medlem">Er du medlem?</label></td>
       <td>
-        <input type="radio" name="cm-fo-trqlu" id="cm210757" value="210757" onchange="if(this.checked) document.getElementById('pris').innerHTML='895';" /> <label for="cm210757">Ja, jeg er medlem af FDIH</label><br />
-        <input type="radio" name="cm-fo-trqlu" id="cm210758" value="210758" onchange="if(this.checked) document.getElementById('pris').innerHTML='895';" /> <label for="cm210758">Ja, jeg er medlem af FDIM</label><br />
-        <input type="radio" name="cm-fo-trqlu" id="cm210759" value="210759" onchange="if(this.checked) document.getElementById('pris').innerHTML='895';" /> <label for="cm210759">Ja, jeg er medlem af Kommunikationsforum</label><br />
-        <input type="radio" name="cm-fo-trqlu" id="cm210756" checked="checked" onchange="if(this.checked) document.getElementById('pris').innerHTML='1.295';" value="210756" /> <label for="cm210756">Nej, jeg er ikke medlem af organisationerne</label>
+        <input type="radio" name="cm-fo-trqlu" id="cm210757" value="210757" onchange="if(this.checked) document.getElementById('pris').innerHTML='895';" onclick="if(this.checked) document.getElementById('pris').innerHTML='895';" /> <label  onclick="if(this.checked) document.getElementById('pris').innerHTML='895';" for="cm210757">Ja, jeg er medlem af FDIH</label><br />
+        <input type="radio" name="cm-fo-trqlu" id="cm210758" value="210758" onchange="if(this.checked) document.getElementById('pris').innerHTML='895';" onclick="if(this.checked) document.getElementById('pris').innerHTML='895';" /> <label  onclick="if(this.checked) document.getElementById('pris').innerHTML='895';" for="cm210758">Ja, jeg er medlem af FDIM</label><br />
+        <input type="radio" name="cm-fo-trqlu" id="cm210759" value="210759" onchange="if(this.checked) document.getElementById('pris').innerHTML='895';" onclick="if(this.checked) document.getElementById('pris').innerHTML='895';" /> <label  onclick="if(this.checked) document.getElementById('pris').innerHTML='895';" for="cm210759">Ja, jeg er medlem af Kommunikationsforum</label><br />
+        <input type="radio" name="cm-fo-trqlu" id="cm210756" checked="checked" onchange="if(this.checked) document.getElementById('pris').innerHTML='1.295';" onclick="if(this.checked) document.getElementById('pris').innerHTML='1.295';" value="210756" /> <label  onclick="if(this.checked) document.getElementById('pris').innerHTML='1295';" for="cm210756">Nej, jeg er ikke medlem af organisationerne</label>
       </td>
     </tr>
 
